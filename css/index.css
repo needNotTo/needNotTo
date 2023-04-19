@@ -1,0 +1,4 @@
+.quran {
+    display: flex;
+    flex-direction: column;
+}
