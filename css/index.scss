@@ -1,0 +1,10 @@
+/*---------- IMPORT ----------*/
+@import 'variables';
+@import 'master';
+
+.quran {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

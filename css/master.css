@@ -4,12 +4,6 @@
 /*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
 /*---------- DEFINE LAYOUT ----------*/
 /*---------- DEFINE FOR ANIMATION ----------*/
-/*---------- IMPORT ----------*/ /*#141e30*/
-/*#96163f*/
-/*#ffffff*/
-/*---------- DEFINE FONT AND TYPOGRAPHY ----------*/
-/*---------- DEFINE LAYOUT ----------*/
-/*---------- DEFINE FOR ANIMATION ----------*/
 /*#141e30*/
 /*#96163f*/
 /*#ffffff*/
@@ -31,14 +25,14 @@ footer .footer-menu a, footer .footer-menu i, nav {
 
 footer .footer-menu a::before, footer .footer-menu a, footer::before, footer, nav::before, nav, main hr::before, main hr, main a::before, main a {
   transition: 0.5s;
-  background: linear-gradient(to right, #141e30 0%, #96163f 50%, #141e30 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 50%, #001e50 100%);
   background-size: 200% auto;
 }
 
 /*---------- BASE ----------*/
 * {
   font-size: 1rem;
-  color: #141e30;
+  color: #001e50;
 }
 
 body {
@@ -100,7 +94,7 @@ main hr {
 }
 
 h1, h2, h3, h4 {
-  color: #96163f;
+  color: #00437a;
   text-align: center;
 }
 
@@ -157,7 +151,7 @@ nav {
 }
 nav .nav-menu .active,
 nav .nav-menu a:hover {
-  background: linear-gradient(to right, #141e30 0%, #96163f 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   color: #ffffff;
 }
 nav .nav-menu .active i,
@@ -191,7 +185,7 @@ footer:hover::before {
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background: linear-gradient(to right, #141e30 0%, #96163f 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   padding: 1vh 10vw;
   margin-top: 5vh;
   height: 30vh;
@@ -240,17 +234,10 @@ footer .footer-menu i {
 }
 
 .copyright {
-  background: linear-gradient(to right, #141e30 0%, #96163f 100%);
+  background: linear-gradient(to right, #001e50 0%, #00437a 100%);
   color: #ffffff;
   border-top: 1px solid #ffffff;
   padding: 0.5rem;
 }
 
-.quran {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=master.css.map */
