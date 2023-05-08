@@ -1,0 +1,44 @@
+/*---------- IMPORT ----------*/
+@import 'variables';
+@import 'snippets';
+
+/*---------- BASE ----------*/
+* {
+    font-size: $normal-font-size;
+    color: $color-primary;
+}
+
+body {
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------- REUSEABLE ----------*/
+h1, h2, h3, h4 {
+    color: $color-secondary;
+    text-align: center;
+}
+
+h1 {
+    font-size: $h1-font-size;
+}
+
+h2 {
+    font-size: $h2-font-size;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: $round;
+    margin: 0.5rem;
+}

@@ -1,9 +1,28 @@
 /*---------- IMPORT ----------*/
 @import 'variables';
 @import 'master';
+@import 'snippets';
 
 .quran {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    direction: rtl;
+    @extend %flex-center;
+    flex-direction: column;
+
+    .week {
+        @extend %flex-center;
+        flex-direction: column;
+
+        .download {
+            a {
+                width: 80vw;
+                height: 5vh;
+                background: $gradient-primary;
+                color: $color-background;
+                @extend %flex-center;
+            }
+
+            a:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
