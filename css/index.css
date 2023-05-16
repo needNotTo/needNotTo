@@ -90,5 +90,11 @@ a {
 .quran .week .download a:hover {
   transform: scale(1.1);
 }
+.quran .week .repetition {
+  border-top: 1px solid #141e30;
+  border-bottom: 1px solid #141e30;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
 
 /*# sourceMappingURL=index.css.map */
